@@ -19,3 +19,8 @@ th {
 th {
     background-color: rgba(128, 128, 128, 0.134);
 }
+
+#item, #subtotal, #tax, #grandTotal {
+    background-color: rgba(128, 128, 128, 0.134);
+
+}
