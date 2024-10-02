@@ -24,3 +24,26 @@ th {
     background-color: rgba(128, 128, 128, 0.134);
 
 }
+
+.gallery-page {
+    background-color: gray;
+}
+
+.gallery img {
+    width: 400px;
+    height: auto;
+    margin: auto
+  
+        
+    
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;  /* Centers the images horizontally */
+    align-items: center;      /* Centers the images vertically */
+    flex-wrap: wrap;          /* Ensures the images will wrap if the page is smaller */
+    height: 100vh;            /* Takes the full viewport height */
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
